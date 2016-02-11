@@ -1,0 +1,1 @@
+export const PLACED_ITEM = 'PLACED_ITEM';

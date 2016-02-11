@@ -1,0 +1,7 @@
+.itemIsOver{
+    background: yellowgreen;
+}
+
+.itemCanDrop{
+    border: 1px solid green;
+}

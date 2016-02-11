@@ -1,0 +1,43 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Launch Node",
+			"type": "node",
+			"request": "launch",
+			"program": "app.ts",
+			"stopOnEntry": false,
+			"args": [],
+			"cwd": ".",
+			"runtimeExecutable": null,
+			"runtimeArgs": [
+				"--nolazy"
+			],
+			"env": {
+				"NODE_ENV": "development"
+			},
+			"externalConsole": false,
+			"sourceMaps": true,
+			"outDir": "null"
+		},
+		{
+			"name": "Attach Node",
+			"type": "node",
+			"request": "attach",
+			"port": 5858
+		},
+        {
+        "name": "Launch chrome",
+        "type": "chrome",
+        "request": "launch",
+        "url": "http://localhost:3001/",
+        "sourceMaps": true
+        },
+        {
+        "name": "Attach chrome",
+        "type": "chrome",
+        "request": "attach",
+        "port": 9222
+        }
+	]
+}
