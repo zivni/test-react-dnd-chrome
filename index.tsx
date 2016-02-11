@@ -25,14 +25,20 @@ const initialStore = {
             "03": {
                 title: "d",
             },
-            "65": {
+            "04": {
                 title: "e",
             },
-            "66": {
+            "05": {
                 title: "f",
             },
-             "673": {
+            "06": {
                 title: "g",
+            },
+            "07": {
+                title: "h",
+            },
+            "08": {
+                title: "i",
             }
             
         }
@@ -51,4 +57,4 @@ ReactDOM.render(
         <App />
         </Provider>
     , rootElement
-);
+)
